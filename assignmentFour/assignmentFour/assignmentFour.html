@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Eric Hooten EBHGCP</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="myCSS.css">
+        <script src="assignmentFourJS.js" async defer></script>
+    </head>
+    <body>
+       <h1>Fruit Game</h1>
+        <div id = "game">
+            <div id = "image">
+                <img class = "image" src="./Fruit/apple-g56a141b7e_640.png" id="mainImage">
+                <p id = "feedback"></p>
+                <div id = "buttons">
+                    <button class = "button" id="apple" onclick="changeImage(0)">Apple</button>
+                    <button class = "button" id="orange" onclick="changeImage(1)">Orange</button>
+                    <button class = "button" id="pear" onclick="changeImage(2)">Pear</button>
+                    <button class = "button" id="pineapple" onclick="changeImage(3)">Pineapple</button>
+                </div>
+            </div>
+            <button class = "restartButton" id="restart" onclick="restart()">Play Again?</button>
+        </div>
+    </body>
+</html>

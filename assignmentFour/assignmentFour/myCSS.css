@@ -1,0 +1,28 @@
+
+body{
+    text-align: center;
+}
+.image{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 200px;
+    padding: 20px;
+}
+.button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+    font-size: medium;
+}
+.restartButton {
+    position: absolute;
+    bottom:0;
+    width: 200px;
+    height: 50px;
+    font-size: medium;
+}
+#feedback{
+    font-family: fantasy;
+}

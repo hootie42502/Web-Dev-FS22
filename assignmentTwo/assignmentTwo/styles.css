@@ -1,0 +1,19 @@
+p {
+    background-color: deepskyblue;
+    margin: 0px;
+    padding: 10px;
+    border: 5px;
+}
+h1 {
+    color: powderblue;
+    background-color: burlywood;
+}
+table {
+    width: 750px;
+}
+td, th {
+    text-align: left;
+}
+body {
+    margin: 10px;
+}
